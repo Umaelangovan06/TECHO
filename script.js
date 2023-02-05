@@ -89,12 +89,14 @@ const drawing = (e) => {
         drawRect(e);
     } else if(selectedTool === "circle"){
         drawCircle(e);
+        else if(selectedTool === "triangle"){
+        drawTriangle(e);
     } else if(selectedTool === "parallelogram"){
         drawParallelogram(e);
     }
 else
 {
-drawCircle(e);
+drawRect(e);
 }
 }
 
